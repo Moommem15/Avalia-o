@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-weight: bold;
+}
+header{
+    height: 80px;
+    display: flex;
+    background-color: #F9F9FD;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo img{
+    height: 100px;
+}
+.BtContato button{
+    display: flex;
+    background-color:#47217F;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: transparent;
+    align-items: center;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    gap: 15px;
+}
+nav a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #503284;
+    font-weight: bold;
+}
+.icone{
+    margin-left: 5px;
+    font-size: 15px
+}
+.Banner{
+    display: flex;
+    background-color: #020E28;
+     color: white;
+    background-size: auto;
+
+}
+.Banner img{
+    margin-left: auto;
+    width: 90%;
+    
+}
+.texto{
+    display: flex;    
+    flex-direction: column;
+    position: absolute;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.texto h1{
+    font-size: 56px;
+    font-weight: 900;
+}
+.texto p{
+    font-size: 10px;
+}
+.TopTexto{
+    display: flex;
+    display: flex;
+    text-align: left;
+    width: 300px;
+}
+.textoGradiente{
+      background-image: linear-gradient(#52D1E4, #72A8E8, #8A88ED);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    background-color: #F8F9FC;
+
+}
+.TopCard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.TextoCard p{
+    font-size: 12px;
+}
+.Detalhe{
+    display: grid;
+    grid-template-columns: 100px 100px  100px;
+    gap: 5px;
+}
+.Detalhe span{
+    background-color: #6B7280;
+}
